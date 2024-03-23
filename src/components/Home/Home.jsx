@@ -1,7 +1,13 @@
+import Banner from '../Banner/Banner';
+import FeaturedJob from '../FeaturedJob/FeaturedJob';
+import JobCategory from '../JobCategory/JobCategory';
+
 const Home = () => {
     return (
         <div>
-            <h3>Home Page</h3>
+            <Banner />
+            <FeaturedJob />
+            <JobCategory />
         </div>
     );
 };
